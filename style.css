@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(img.jpg);
+    
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  }
+ .tital{
+    margin-top: 10rem;
+    margin-left: 25rem;
+    color: #067ddf;
+    font-family: sans-serif;
+    font-weight: 800;
+ }
+ .content{
+    height: 5rem;
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    align-items: center;
+    justify-content: center;
+ }
+  label {
+    font-size: 16px;
+    color: #067ddf;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 8px;
+    border: 1px solid #000000ef;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #f8f5f5;
+    background-color: #050505;
+    
+  }
+  
+ 
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #006677;
+  }
+  
+
+  #endtime {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #be0909;
+  }
+  
+ 
+  audio {
+    display: none;
+  }
+  
+ 
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  
+  input[type="number"]:focus {
+    box-shadow: 0px 0px 5px #008CBA;
+    outline: none;
+  }
+  

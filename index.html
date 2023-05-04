@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer</title>
+	<script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+	
+		<h1 class="tital">Timer</h1>
+	
+	<div class="content">
+	<label for="hours">Hours:</label>
+	<input type="number" id="hours" min="0" max="24" value="0"> 
+
+	<label for="minutes">Minutes:</label>
+	<input type="number" id="minutes" min="0" max="60" value="0">
+
+	<label for="seconds">Seconds:</label>
+	<input type="number" id="seconds" min="0" max="60" value="0">
+
+	<button onclick="startTimer()">Start Timer</button>
+	<button onclick="refresh()">Refresh</button>
+	
+	<div id="endtime"></div>
+
+	<audio id="audio" src="Clock-chimes-sounds.mp3"></audio>
+	</div>
+</body>
+</html>

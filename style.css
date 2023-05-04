@@ -2,9 +2,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url(img.jpg);
-    
-  background-repeat: no-repeat;
-  background-size: 100% 200%;
+    background-repeat: no-repeat;
+   background-size: cover;
   }
  .tital{
     margin-top: 10rem;
